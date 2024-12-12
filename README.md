@@ -41,8 +41,11 @@ Email: aliairf92@gmail.com
 
 ### Key Sections Explained:
 Tech Stack: Lists the main technologies used in your project (React, TypeScript, etc.).
+
 Features: Highlights the functionality and features of your portfolio.
+
 Getting Started: Step-by-step instructions on how someone can clone and run your project locally.
+
 LinkedIn: https://www.linkedin.com/in/ali-arif-140bb8274/
 
 
