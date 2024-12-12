@@ -1,50 +1,15 @@
-# React + TypeScript + Vite
+##Ali Arif's Portfolio
+Welcome to my personal portfolio! This website showcases my work as a Frontend Web Developer. It highlights my skills, projects, and experience, providing an overview of the technologies I work with.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Tech Stack
+1- Frontend: React, TypeScript, Tailwind CSS
+2- State Management: Redux Toolkit (Optional based on your usage)
+3- Version Control: Git, GitHub
+4- Deployment: Vercel / Netlify / GitHub Pages
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+##Features
+## Responsive Design: The website is fully responsive and optimized for various screen sizes.
+## Interactive Sections: Features smooth scrolling, hover effects, and modals for project details.
+## Showcase of Projects: View my most recent and significant projects that demonstrate my skills.
+## Work Experience: Learn about my professional background and projects I’ve contributed to.
+## Skills Section: A list of technologies and tools I am proficient in, including front-end development tools and frameworks.
