@@ -428,18 +428,18 @@ const HeroSection = () => {
         </div>
       </motion.div>
       <div className="fixed bottom-0 left-0 right-0 flex justify-center items-center w-auto shadow-xl shadow-black-350 py-2">
-        <div className="flex justify-center items-center border divide-x-2 space-x-5 gap-3 bg-white-150 px-2 py-[.5rem] rounded-full shadow-xl cursor-pointer">
+        <div className="flex justify-center items-center border divide-x-2 space-x-5 gap-3 bg-white-150 px-2 py-[.5rem] rounded-full shadow-xl cursor-pointer hover:py-2">
           <div
             onClick={handleSkill}
-            className="hover:scale-125 transition-all ease-in-out"
+            className="hover:scale-125 transition-all ease-in-out hover:px-1"
           >
-            <CodeXml className="hover:bg-gray-200 hover:scale-125 size-8 p-1 rounded-lg transition-all ease-in-out ml-4" />
+            <CodeXml className="hover:bg-gray-200 hover:scale-125  p-1 rounded-lg transition-all ease-in-out ml-4" />
           </div>
           <div
             onClick={handleProjectSkill}
             className="hover:scale-125 transition-all ease-in-out"
           >
-            <ScrollText className="hover:bg-gray-200 hover:scale-125 size-8 p-1 rounded-lg transition-all ease-in-out ml-4" />
+            <ScrollText className="hover:bg-gray-200 hover:scale-125  p-1 rounded-lg transition-all ease-in-out ml-4" />
           </div>
           <a
             href="https://github.com/AliArif5781"
@@ -448,7 +448,7 @@ const HeroSection = () => {
           >
             <svg
               viewBox="0 0 438.549 438.549"
-              className="h-[25px] hover:bg-gray-200 hover:scale-125 p-1 rounded-lg transition-all ease-in-out ml-4"
+              className="h-[25px] hover:bg-gray-200 hover:scale-125 size-7  p-1 rounded-lg transition-all ease-in-out ml-4"
             >
               <path
                 fill="currentColor"
@@ -458,10 +458,10 @@ const HeroSection = () => {
           </a>
           <a
             href="https://www.linkedin.com/in/ali-arif-140bb8274/"
-            className="hover:scale-125 transition-all ease-in-out"
+            className="hover:scale-125 transition-all ease-in-out hover:px-2"
             target="_blank"
           >
-            <Linkedin className="hover:bg-gray-200 size-8 p-1 rounded-lg transition-all ease-in-out ml-4" />
+            <Linkedin className="hover:bg-gray-200  p-1 rounded-lg transition-all ease-in-out ml-4" />
           </a>
         </div>
       </div>
