@@ -262,7 +262,7 @@ const HeroSection = () => {
           </div>
           {/*  */}
           <div className="grid gap-4 m-4 sm:grid-cols-12">
-            <div className="sm:col-span-6 border border-gray-300 rounded-lg">
+            <div className="sm:col-span-6 border border-gray-300 rounded-lg pb-2">
               <a
                 className="block cursor-pointer"
                 href="https://ecommerence-theta.vercel.app/"
@@ -284,10 +284,11 @@ const HeroSection = () => {
                   creativity seamlessly intersects with fashion. In addition to
                   a diverse selection of clothing, we offer a unique
                   functionality that allows users to design their own custom
-                  t-shirts.This empowering feature enables individuals to
-                  express their personal style and individuality.
+                  t-shirts.
                 </p>
-                <LanguageUse />
+                <div className="pt-16">
+                  <LanguageUse />
+                </div>
                 {/*  */}
                 <div className="flex">
                   <div>
@@ -295,9 +296,7 @@ const HeroSection = () => {
                       href="https://ecommerence-theta.vercel.app/"
                       target="_blank"
                     >
-                      <div>
-                        <Website />
-                      </div>
+                      <Website />
                     </a>
                   </div>
                   <a
@@ -307,6 +306,7 @@ const HeroSection = () => {
                   >
                     <Github />
                   </a>
+                  {/*  */}
                 </div>
               </div>
             </div>
