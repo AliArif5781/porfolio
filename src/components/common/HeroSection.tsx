@@ -293,7 +293,7 @@ const HeroSection = () => {
                 <div className="flex">
                   <div>
                     <a
-                      href="https://ecommerence-theta.vercel.app/"
+                      href="https://react-ecommerence-website.vercel.app/"
                       target="_blank"
                     >
                       <Website />
