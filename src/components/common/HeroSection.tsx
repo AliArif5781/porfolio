@@ -265,7 +265,7 @@ const HeroSection = () => {
             <div className="sm:col-span-6 border border-gray-300 rounded-lg pb-2">
               <a
                 className="block cursor-pointer"
-                href="https://ecommerence-theta.vercel.app/"
+                href="https://react-ecommerence-website.vercel.app/"
               >
                 <video
                   src={ecommerence}
