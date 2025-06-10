@@ -264,8 +264,8 @@ const HeroSection = () => {
           <div className="grid gap-4 m-4 sm:grid-cols-12">
             <div className="sm:col-span-6 border border-gray-300 rounded-lg pb-2">
               <a
-                className="block cursor-pointer"
                 href="https://react-ecommerence-website.vercel.app/"
+                className="block cursor-pointer"
               >
                 <video
                   src={ecommerence}
